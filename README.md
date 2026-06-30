@@ -1,3 +1,22 @@
+# Short intro about project
+
+# NanoGPT — Transformer Language Model Built from Scratch
+
+A from-scratch PyTorch implementation of a character-level GPT language model, progressing from a baseline bigram 
+model to a full 6-layer, 6-head transformer with 384-dimensional embeddings (~10.7M parameters). Built to deeply 
+understand transformer internals — every core component (scaled dot-product self-attention, multi-head attention, 
+causal masking, position-wise feedforward layers) is implemented manually rather than relying on pre-built libraries.
+
+Trained on a 1M+ character Shakespeare corpus with a 90/10 train-validation split, using AdamW optimization and 
+dropout regularization to monitor convergence over 5,000 training iterations.
+
+> Implementation follows Andrej Karpathy's "Neural Networks: Zero to Hero" lecture series — built as a deep dive 
+> into first-principles transformer architecture and attention mechanisms.
+
+**Tech stack:** PyTorch · Python
+
+
+Brief Description about the Project
 
 # nanogpt-lecture
 
